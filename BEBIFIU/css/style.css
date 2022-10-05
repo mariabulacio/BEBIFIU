@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,300;0,600;0,800;1,200&display=swap');
+
+*{
+    padding: 0px;
+    /*box-sizing: border-box;*/
+    margin: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/*//BODY//*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #843F0F;
+    font-size: 15px;
+    font-weight:500;
+}
+
+/*//HEADER//*/
+header{
+    width:100%;
+    height: 72px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEE600;
+}
+header nav{
+    margin-left: 90px;
+}
+
+header nav a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #843F0F;
+    padding: 20px;
+}
+header nav a:hover{
+    color:#F0741E
+}
+
+/*//MAIN//*/
+main{
+    width:100%;
+    height:100%;
+    margin: auto;
+    background-color: #FBB847;
+}
+
+/*//INDEX//*/
+    #logomain{
+        height: 550px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        padding: 5.5px;
+    }
+    #logomain h1{
+        margin-left: 10px;
+        width: 500px;
+        text-align: left;
+        font-size: 80px;
+        color: white;
+    }
+    #logomain h2{
+        margin-left: 10px;
+        width: 500px;
+        text-align: left;
+        font-size: 60px;
+        font-weight: 400;
+    }
+
+    #btn1, #btn2{
+        width: 150px;
+        margin-top: 24px;
+        margin-left: 10px;
+        padding: 8px;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        color: #843F0F;
+        border-radius: 20px;
+        background-color: #FEE600;
+        border: none;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    #btn2{
+        background-color: white;
+    }
+    #logomain button:hover{
+        background-color:#F0741E;
+    }
+    #logomain img{
+        height: 500px;
+    }
+
+/*//INFO//*/
+#menu{
+    background-color:#F0741E;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 90px;
+}
+#menuop a{
+    padding: 12px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    border-radius: 25px;
+    background-color: #FBB847;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    margin: 50px;
+}
+#menuop a:hover {
+    background-color: rgb(248, 235, 44);
+}
+
+.card-titleInfo{
+    text-align: center;
+    color: #F0741E;
+    font-weight:800;
+    font-size: 35px;
+}
+
+#cardInfo{
+    width:800px;
+    margin:auto;
+    padding: 12px;
+    }
+
+
+/*//BEBIFIU//*/ 
+
+#title{
+    width: 100%;
+    padding: 12px 0;
+    margin: auto;
+    text-align: center;
+}
+    #title h1{
+        color: white;
+        font-size: 50px;
+        font-weight:700;
+    }
+
+.card{
+    margin: 15px;
+    background-color:white;
+}
+
+.card-group{
+    width: 60%;
+    height: 570px;
+    margin: auto;
+    padding: 12px;
+}
+.card-title{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #843F0F;
+    font-size: 30px;
+    font-weight: 800;
+}
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card button{
+    display: block;    
+    width: 50%;
+    margin: auto;
+    padding: 10px  0px;
+    border-radius: 45px;
+    border-color: transparent;
+    background-color:yellow;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.3s;
+    color: #843F0F;
+}
+
+.card button:hover{
+    background-color: #F0741E;
+}
+
+/*//PENSION//*/
+.pensionBody {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .pensionBody .people__Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .pensionBody .people__Container h1 {
+    color: white;
+    font-size: 42px;
+  }
+  .pensionBody .people__Container .card__Container {
+    width: 90%;
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .pensionBody .people__Container .card__Container .Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 400px;
+    width: 30%;
+    height: auto;
+  }
+  .pensionBody .people__Container .card__Container .Card .card__presentacion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #fee600;
+  }
+  .pensionBody .people__Container .card__Container .Card .card__presentacion .img__presentacion {
+    position: relative;
+    top: -60px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .pensionBody .people__Container .card__Container .Card .card__presentacion .name__presentacion {
+    position: relative;
+    bottom: 30px;
+    font-weight: 900;
+  }
+  .pensionBody .people__Container .card__Container .Card .card__info li {
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    margin: 5px;
+  }
+  .pensionBody .people__Container .card__Container .Card .card__info li:hover {
+    cursor: pointer;
+  }
+  .pensionBody .people__Container .card__Container .Card button {
+    width: 200px;
+    margin: 15px auto 15px auto;
+    padding-block: 10px;
+    border-radius: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color:white;
+    transition: 0.3s;
+    color: #843F0F;
+    border-color: transparent;
+  }
+  .pensionBody .people__Container .card__Container .Card button:hover {
+    cursor: pointer;
+    background-color: #F0741E;
+  }
+
+
+/*//CONTACTO//*/
+
+    #contacto{
+        width: 100%;
+        padding: 12px 0;
+        margin: auto;
+        text-align: center;
+    }
+        #contacto h1{
+            color: white;
+            font-size: 50px;
+        }
+        #contacto h3{
+            font-size: 20px;
+            padding: 15px 0;
+        }
+    
+        #contacto form input,textarea{
+            width: 50%;
+            margin-top: 8px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            padding: 20px 10px;
+            border-radius: 8px;
+            border: 1px solid #807871;
+        }
+            #contacto textarea {
+                resize: none; 
+                margin-bottom: 5px;
+            }
+        #contacto button {
+            display: block;
+            width: 25%;
+            margin: auto;
+            padding: 10px  0px;
+            border-radius: 20px;
+            border-color: transparent;
+            background-color: #FEE600;
+            color: #843F0F;
+            cursor: pointer;
+            border: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: 0.3s;
+            font-family: 'Montserrat', sans-serif;
+        }
+    
+        #contacto button:hover{
+            background-color: #F0741E;
+        }
+        
+/*//FOOTER//*/
+footer {
+    background-color: #807871;
+}
+    #bottom{
+        width: 1100px;
+        height: 72px;
+        margin: auto;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #bottom img{
+        width: 32px;
+        margin-right: 10px;
+    }
+    #bottom p{
+        font-weight: 400;
+        color: white;
+    }
+
+
+
+
